@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
-import kwLOGO from '../assets/images/KW.jpg'
+import kwLOGO from '../assets/images/kw.jpg'
 const HomeIndex = () => {
   const siteTitle = 'Mustafa Dar  - Keller Williams UK'
   const siteDescription = 'Real Estate Professional with Keller Williams UK'

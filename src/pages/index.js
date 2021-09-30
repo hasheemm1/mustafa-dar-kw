@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Gallery from '../components/Gallery'
+import Services from '../components/Services'
 import Layout from '../components/layout'
 import kwLOGO from '../assets/images/kw.jpg'
 const HomeIndex = () => {
@@ -31,6 +32,13 @@ const HomeIndex = () => {
           <p>In an ever changing economy, local knowledge and expertise goes a long way to negotiating the best deals, therefore who better than your local property agent, me!
           My task is to reduce the distance between paradise and the place you call home.</p>
           
+         
+        </section>
+        <section id="two">
+          <h2>Services</h2>
+
+          <Services />
+
           <ul className="actions">
             <li>
               <a href="#" className="button">
@@ -38,34 +46,6 @@ const HomeIndex = () => {
               </a>
             </li>
           </ul>
-        </section>
-        <section id="two">
-          <h2>Services</h2>
-
-          <ul className="services">
-            <li>
-            <h3 className="subHeading">
-          Sales
-         
-            </h3>
-            <img src="https://via.placeholder.com/150" alt="Sales"/>
-            </li>
-            <li>
-            <h3 className="subHeading">
-          Lettings
-            </h3>
-            <img src="https://via.placeholder.com/150" alt="Lettings"/>
-            </li>
-            <li>
-            <h3 className="subHeading">
-          Kenyan's Abroad
-       
-            </h3>
-            <img src="https://via.placeholder.com/150" alt="Lettings"/>
-            </li>
-          </ul>
-
-         
         </section>
         <section id="two">
           <h2>Listings</h2>

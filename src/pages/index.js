@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Gallery from '../components/Gallery'
+import Listing from '../components/Listing'
 import Services from '../components/Services'
 import Layout from '../components/layout'
 import kwLOGO from '../assets/images/kw.jpg'
@@ -24,13 +24,21 @@ const HomeIndex = () => {
             Trusted Property Consultant.
             </h2>
           </header>
-          
-          <p>As a professional real estate agent, my extensive knowledge in the market spans back to my childhood. Following in my father’s footsteps, I joined the family business straight after university and completed 6 years learning the ropes and managing the business before I then made the move to the UK.</p>
-          <p>In the UK I joined a high street agency as a trainee and worked my way up to a sales negotiator. Having completed 3 years I decided I was ready for a bigger challenge.
-          No challenge could possibly be bigger, than joining the world’s largest estate agency, Keller Williams. With over 190 000 independent agents across 53 countries, tailored marketing tools and strategies, I now have the ability to reach out to people across the globe.</p>
           <p>Traditionally, most agencies tend to cast a wide net on any possible suitors, while at Keller William, we tend to focus purely on our clients precise needs and formulate a bespoke marketing strategy specific to every client and their home or need.</p>
           <p>In an ever changing economy, local knowledge and expertise goes a long way to negotiating the best deals, therefore who better than your local property agent, me!
           My task is to reduce the distance between paradise and the place you call home.</p>
+          <ul className="actions">
+            <li>
+                <a href="#" className="button">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+            <div className="hidden">
+          <p>As a professional real estate agent, my extensive knowledge in the market spans back to my childhood. Following in my father’s footsteps, I joined the family business straight after university and completed 6 years learning the ropes and managing the business before I then made the move to the UK.</p>
+          <p>In the UK I joined a high street agency as a trainee and worked my way up to a sales negotiator. Having completed 3 years I decided I was ready for a bigger challenge.
+          No challenge could possibly be bigger, than joining the world’s largest estate agency, Keller Williams. With over 190 000 independent agents across 53 countries, tailored marketing tools and strategies, I now have the ability to reach out to people across the globe.</p>
+          </div>
           
          
         </section>
@@ -50,7 +58,7 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Listings</h2>
 
-          <Gallery />
+          <Listing />
 
          
         </section>

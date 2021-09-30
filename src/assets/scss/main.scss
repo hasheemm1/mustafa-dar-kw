@@ -201,7 +201,7 @@
 	.align-right {
 		text-align: right;
 	}
-
+	.hidden{display:none;}
 /* Section/Article */
 
 	section, article {
@@ -893,6 +893,48 @@
 /* Work Item */
 
 	.work-item {
+		
+		margin-bottom:10px;
+	
+		img {
+			width:100%;
+		}
+		.wrapper{
+			background-color: _palette(border2-bg) !important;
+			padding:40px 10px 40px 10px;
+			margin:0px !important;
+		}
+		h4 {
+			color: _palette(fg-dark) !important;
+			font-size: 0.7em;
+			margin: 0 0 0 0;
+		}
+		h3 {
+			color: _palette(fg-dark) !important;
+			font-size: 1em;
+			margin: 0 0 0 0;
+		}
+
+		p {
+			font-size: 0.8em;
+			line-height: 1.5em;
+			margin: 0;
+		}
+		a{border:none; display: flex;}
+		a.bottom{
+			font-size: 0.8em;
+			text-transform: uppercase;
+			width:100%;
+			display:inline-block;
+			text-align: right;
+			padding:5px;
+			color: #fff;
+			border: solid 1px #fff;
+			background-color: _palette(bg) !important;
+		}
+	}
+
+	.service-item {
 		margin: 0 0 _size(element-margin) 0;
 
 		.image {

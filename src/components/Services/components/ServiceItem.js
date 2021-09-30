@@ -5,7 +5,7 @@ const ServiceItem = ({id, source, thumbnail, caption, description}) => {
 
   
 
-    return (<article key={id} className="4u 12u$(xsmall) work-item">
+    return (<article key={id} className="4u 12u$(small) service-item">
         <a
         className="image fit thumb"
         href={source}
@@ -13,7 +13,6 @@ const ServiceItem = ({id, source, thumbnail, caption, description}) => {
         >
         <img src={thumbnail} />
         </a>
-
         <h3>{caption}</h3>
         <p>{description}</p>
     </article>)

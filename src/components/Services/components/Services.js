@@ -17,6 +17,7 @@ const Service = ({ services = DATA }) => {
           source={obj.source}
           thumbnail={obj.thumbnail}
           caption={obj.caption}
+   
           description={obj.description}
           position={i}
          

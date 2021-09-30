@@ -10,7 +10,7 @@ const Header = () => (
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>I am Mustafa Dar</strong>,
+        <strong>I am Mustafa Dar</strong>,&nbsp;
         <br />
         A Real Estate Professional with <br /> Keller Williams UK
    

@@ -17,7 +17,7 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="one">
-        <img src={kwLOGO} alt="KELLERWILIAMS" />
+        <img className="kwLogo" src={kwLOGO} alt="KELLERWILIAMS" />
           <header className="major">
             <h2>
             Trusted Property Consultant.
@@ -42,7 +42,7 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Services</h2>
 
-          <ul className="actions">
+          <ul className="services">
             <li>
             <h3 className="subHeading">
           Sales
